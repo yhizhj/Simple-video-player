@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>私人影院</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+<div>
+  <div class="container">
+
+    <div class="main-video-container">
+     
+    <!-- 视频 -->
+    <div class="video-box">
+      <!-- 视频屏幕区域 -->
+      <div class="video-content">
+        <!-- 视频暂停时显示的图标 -->
+        <span class="pause-icon material-icons-outlined">
+          play_circle_outline
+        </span>
+        <!-- 视频主区域 -->
+        <video class="video-main" ></video>
+        <!-- 视频控制区域 -->
+        <div class="video-control">
+          <!-- 进度条 -->
+          <div class="progress-bar-box">
+            <span 
+              class="progress-bar-main"
+              style="width: 0"></span>
+            <span
+              class="progress-bar-load"
+              style="width: 0;"></span>
+          </div>
+          <!-- 按钮 -->
+          <div class="control-btn-box">
+            <span
+              class="play-btn material-icons-outlined">
+              play_circle_outline
+            </span>
+            <span
+              class="full-screen-btn material-icons-outlined">
+              fullscreen
+            </span>
+          </div>
+        </div>
+      </div>
+   </div>
+</div>
+<div>
+</div>
+
+<div class="video-list-container">
+  <div class="list active" onclick="videoMain.src='./videos/kunkun慢摇.mp4' ">
+     <video src="./videos/kunkun慢摇.mp4" class="list-video"></video>
+     <h3 class="list-title">kunkun慢摇</h3>
+  </div>
+  <div class="list" onclick="videoMain.src='./videos/真人鬼灭.mp4' ">
+    <video src="./videos/真人鬼灭.mp4" class="list-video"></video>
+    <h3 class="list-title">真人鬼灭</h3>
+  </div>
+  <div class="list" onclick="videoMain.src='./videos/修勾1.mp4' ">
+     <video src="./videos/修勾1.mp4" class="list-video"></video>
+     <h3 class="list-title">修勾1《打劫》</h3>
+  </div>
+  <div class="list" onclick="videoMain.src='./videos/修勾2《Cheems时代》.mp4' ">
+    <video src="./videos/修勾2《Cheems时代》.mp4" class="list-video"></video>
+    <h3 class="list-title">修勾2《Cheems时代》</h3>
+  </div>
+  <div class="list" onclick="videoMain.src='./videos/修勾3《把回忆留给你》.mp4' ">
+    <video src="./videos/修勾3《把回忆留给你》.mp4" class="list-video"></video>
+    <h3 class="list-title">修勾3《把回忆留给你》</h3>
+  </div>
+  <div class="list" onclick="videoMain.src='./videos/绝情修勾.mp4' ">
+    <video src="./videos/绝情修勾.mp4" class="list-video"></video>
+    <h3 class="list-title">绝情修勾</h3>
+  </div>
+  <div class="list" onclick="videoMain.src='./videos/读评论.mp4' ">
+    <video src="./videos/读评论.mp4" class="list-video"></video>
+    <h3 class="list-title">读评论</h3>
+  </div>
+  <div class="list" onclick="videoMain.src='./videos/鬼！.mp4' ">
+    <video src="./videos/鬼！.mp4" class="list-video"></video>
+    <h3 class="list-title">鬼！</h3>
+  </div>
+  <div class="list" onclick="videoMain.src='./videos/你干嘛(正常版).mp4' ">
+    <video src="./videos/你干嘛(正常版).mp4" class="list-video"></video>
+    <h3 class="list-title">你干嘛(正常版)</h3>
+  </div>
+  <div class="list" onclick="videoMain.src='./videos/你干嘛(加强版).mp4' ">
+    <video src="./videos/你干嘛(加强版).mp4" class="list-video"></video>
+    <h3 class="list-title">你干嘛(加强版)</h3>
+  </div>
+  </div>
+</div>
+
+</div>
+<!-- 
+<div class="container">
+  <div class="main-video-container">
+     <video src="images/vid-1.mp4" loop controls class="main-video"></video>
+     <h3 class="main-vid-title">house flood animation</h3>
+  </div> -->
+  
+  <script src="index.js"></script>
+</body>
+</html>
